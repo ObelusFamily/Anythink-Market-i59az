@@ -1,6 +1,7 @@
 {
   "name": "anythink-market-front",
   "version": "0.1.0",
+  "license": "UNLICENSED",
   "engines": {
     "node": ">=16"
   },
@@ -33,7 +34,7 @@
     "superagent-promise": "^1.1.0"
   },
   "scripts": {
-    "start": "REACT_APP_WILCO_ID=\"$(cat ../.wilco)\" react-scripts start",
+    "start": "PORT=3001 REACT_APP_WILCO_ID=\"$(cat ../.wilco)\" react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
